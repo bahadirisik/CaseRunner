@@ -8,6 +8,6 @@ public class Coin : MonoBehaviour, IIntreactable
 	public void Interact()
 	{
 		GameMaster.Instance.IncreaseCoinAmount(coinAmount);
-		Destroy(gameObject);
+		gameObject.SetActive(false);
 	}
 }

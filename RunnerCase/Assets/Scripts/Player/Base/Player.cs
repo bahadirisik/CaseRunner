@@ -20,8 +20,8 @@ public class Player : MonoBehaviour, IDamageable
 	private float groundForce = -1f;
 	private float groundDistance = 0.05f;
 	private float jumpForce = 15f;
-	private float verticalAccleration = 70f;
-	private float fallSpeed = 40f;
+	private float verticalAccleration = 65f;
+	private float fallSpeed = 25f;
 
 	#endregion
 
